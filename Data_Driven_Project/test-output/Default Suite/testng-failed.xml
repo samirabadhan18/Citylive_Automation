@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BaseTest.java(failed)">
+    <classes>
+      <class name="testcase.Wallet_Single_Ben">
+        <methods>
+          <include name="setUP"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.Wallet_Single_Ben -->
+    </classes>
+  </test> <!-- BaseTest.java(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
